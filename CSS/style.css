@@ -1,61 +1,62 @@
 .playfair-display {
-    font-family: "Playfair Display", serif;
+    font-family: "Playfair Display", serif;/* Define a priority list of one or more main font names.*/
 }
 
 html{
-    box-sizing: border-box;
+    box-sizing: border-box;/* You can change how the browser calculates the dimensions of an element.*/
 }
 
 *,
 *:after,
 *:before{
-    box-sizing: inherit;
+    box-sizing: inherit;/* Defines how the overall width and height of an element is calculated.*/
 }
 a{
     color:inherit;
-    text-decoration: none;
+    text-decoration: none;/* Underlining and other effects. None - removes the above effects.*/
 }
 ul{
-    list-style-type: none;
+    list-style-type: none;/* Allows you to make squares or circles for the ul list instead of dot markers.*/
 }
 .container{
-    max-width: 1220px;
-    padding: 0 10px;
+    max-width: 1220px;/* Indicates that the size of the element is not fixed and takes up all the free space, but it cannot be more than 1000px in width.*/
+    padding: 0 10px;/* It is the space between its content and its boundary.*/
     margin: 0 auto;
 }
 
 body{
-    font-family: "Inter", sans-serif;
-    font-weight: 400;
-    line-height: 1.4 ;
+    font-family: "Inter", sans-serif; /* Defines a prioritized list of one or more font family names*/
+    font-weight: 400;/* Sets the font style.*/
+    line-height: 1.4 ;/* Sets the amount of space between lines, for example in text.*/
     font-size: 14px;
     color: #1B1B1B;
 }
 
 .header__inner{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;/* Justify-conten - defines how the browser distributes space between and 
+    around content elements along the main axis of a flex container, or along the inline axis of a grid container.*/
     padding-top: 30px;
 }
 .header__title{
     font-family: "Playfair Display", serif;
-    font-size: 14px;
-    text-transform: uppercase;
-    margin-left:auto ;
+    font-size: 14px;/* Determines the font size.*/
+    text-transform: uppercase;/* Stylize headings using capital letters.*/
+    margin-left:auto ;/* This value tells the browser to calculate the margin size itself.*/
 }
 
 .menu{
     margin-left: 130px;
-    margin-right: 185px; 
+    margin-right: 185px;/* Sets the margin to the right of the element.*/ 
 }
 .menu__item{
     color:#1B1B1B;
-    font: size 12px; 
-    text-transform: uppercase;
-    margin-bottom: 10px ;
+    font: size 12px; /* Determines the font size.*/ 
+    text-transform: uppercase; /*Stylize headings using capital letters.*/ 
+    margin-bottom: 10px ; /* Sets the margin at the bottom of the element.*/
 }
 
 .user-nav{
     display: flex;
-    gap: 0 20px; /* gap потому что используем flex тоже самое что и margin - отступ 0 внизу и верху 20 справа и слева*/
+    gap: 0 20px; /*gap because we use flex the same as margin - indent 0 at the bottom and top 20 on the right and left*/
 }
