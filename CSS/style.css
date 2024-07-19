@@ -4,6 +4,7 @@
 
 html{
     box-sizing: border-box;/* You can change how the browser calculates the dimensions of an element.*/
+    background-image: url(../images/top-slide/slide-2.jpg);
 }
 
 *,
@@ -17,6 +18,9 @@ a{
 }
 ul{
     list-style-type: none;/* Allows you to make squares or circles for the ul list instead of dot markers.*/
+}
+.header{
+    margin-bottom: 100px ;
 }
 .container{
     max-width: 1220px;/* Indicates that the size of the element is not fixed and takes up all the free space, but it cannot be more than 1000px in width.*/
@@ -46,8 +50,8 @@ body{
 }
 
 .menu{
-    margin-left: 130px;
-    margin-right: 185px;/* Sets the margin to the right of the element.*/ 
+    margin-left: 155px;
+    margin-right: 140px;/* Sets the margin to the right of the element.*/ 
 }
 .menu__item{
     color:#1B1B1B;
@@ -59,4 +63,48 @@ body{
 .user-nav{
     display: flex;
     gap: 0 20px; /*gap because we use flex the same as margin - indent 0 at the bottom and top 20 on the right and left*/
+}
+
+.top {
+    margin-bottom: 150px;
+}
+.top-slide{
+   min-height: 700px;
+}
+
+.top-slide__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.top-slide__content{
+    flex-basis: 183px;
+    margin-top: -60px;
+}
+
+.top-slide__title{
+    font-family: "Playfair Display",serif;
+    font-size: 70px;
+    text-transform: uppercase; /*stylize headings using capital letters.*/
+    font-weight: 400; /*sets the font style.*/
+    line-height: 1.3; /* sets the amount of space between lines, for example in text. */
+}
+.top-slide__subtitle{
+    font-size: 24px ;
+    margin-bottom: 10px ; /*sets the margin at the bottom of the element.*/
+}
+.top-slide__text{
+    margin-bottom: 20px ;
+}
+.top-slide__bth{
+    color: #7449BB;
+    text-transform: uppercase ;
+    font-weight: 700px;
+    padding: 21px 55px;
+    border: 1px solid #7449BB;
+    display: inline-block;
+
 }
