@@ -69,10 +69,13 @@ body{
     margin-bottom: 150px;
 }
 .top-slide{
-   min-height: 700px;
+
+   background-size: cover;/*Allows you to set the size of the background image.*/
+   background-repeat: no-repeat; /*Sets how background images will be repeated.*/
 }
 
 .top-slide__inner{
+    min-height: 700px; 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -106,5 +109,15 @@ body{
     padding: 21px 55px;
     border: 1px solid #7449BB;
     display: inline-block;
+    margin-left: auto;
+}
 
+.swiper-button-prev:after,
+.swiper-button-next:after{
+    content: none;
+}
+.container-arrow{
+    position: relative;
+    padding: 0;
+    max-width: 1200px;
 }
