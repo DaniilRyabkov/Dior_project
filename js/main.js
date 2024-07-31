@@ -1,6 +1,10 @@
-const swiper = new Swiper('.swiper', {
+const swiper = new Swiper('.swiper',{
     // Optional parameters
-    loop: true,
+    effect: "fade",
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
     // Navigation arrows
     navigation: {
       nextEl: '.swiper-button-next',

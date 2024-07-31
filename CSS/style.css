@@ -110,8 +110,13 @@ body{
     border: 1px solid #7449BB;
     display: inline-block;
     margin-left: auto;
+    transition: .3s ease;
+    
 }
-
+.top-slide__bth:hover{
+color:white;
+background-color: #7449BB;
+}
 .swiper-button-prev:after,
 .swiper-button-next:after{
     content: none;
@@ -120,4 +125,11 @@ body{
     position: relative;
     padding: 0;
     max-width: 1200px;
+}
+.top .swiper{
+    padding-bottom: 50px;
+}
+.swiper-button-next{
+    left:75px;
+    right: auto;
 }
