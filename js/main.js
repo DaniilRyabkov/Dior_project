@@ -1,4 +1,4 @@
-const swiper = new Swiper('.swiper',{
+const swiperTop = new Swiper('.top-swiper',{
     // Optional parameters
     effect: "fade",
     autoplay: {
@@ -9,6 +9,16 @@ const swiper = new Swiper('.swiper',{
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
+    },
+  });
+
+  const swiperAbout= new Swiper(".about__slider", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    freeMode: true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
     },
   });
   
