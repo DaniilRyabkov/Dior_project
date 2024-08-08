@@ -150,11 +150,18 @@ background-color: #7449BB;
     text-transform: uppercase;
 }
 .about__textbox{
-
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 .about__text{
-
+    flex-basis: 387px;
+    line-height: 1.2;
+}
+.about__text p{
+    margin-bottom: 15px;
 }
 .about__text--bold{
-    
+    font-weight: 700;
 }
