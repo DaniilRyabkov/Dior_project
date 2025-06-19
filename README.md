@@ -1,7 +1,7 @@
 
 ![eb050824-a92b-4bc3-8a3f-7d60543568de](https://github.com/user-attachments/assets/051a7e37-9f29-40d2-ac8f-053958ce162f)
 
-Dior_project
+Dior_project :purple_heart:
 ==================
 > About the brand:
 
@@ -17,7 +17,7 @@ Dior_project-SITE
 <img width="1454" alt="Снимок экрана 2025-06-19 в 21 29 17" src="https://github.com/user-attachments/assets/ca93d0fe-7390-4a11-93cf-4a91861d913e" />
 
 
-# cross platform
+# cross platform site :question: :exclamation:	
 ## What is this???
 ![1-3](https://github.com/user-attachments/assets/c30232bb-08e5-47d5-b4a1-625b2fdd9e30)
 
