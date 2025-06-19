@@ -10,8 +10,6 @@ is a French fashion house founded in 1946 by Christian Dior. The brand is known 
 ------------------
 
 Dior_project-SITE
-cross platform
-
 ==================
 
 [SITE-Cross platform](https://www.example.com)
