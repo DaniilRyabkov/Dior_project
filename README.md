@@ -17,8 +17,8 @@ Dior_project-SITE
 <img width="1454" alt="Снимок экрана 2025-06-19 в 21 29 17" src="https://github.com/user-attachments/assets/ca93d0fe-7390-4a11-93cf-4a91861d913e" />
 
 
-#cross platform
-##What is this???
+# cross platform
+## What is this???
 ![1-3](https://github.com/user-attachments/assets/c30232bb-08e5-47d5-b4a1-625b2fdd9e30)
 
 >This is the ability to run websites, applications, games and programs on any device and operating system.
